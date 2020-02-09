@@ -5,7 +5,7 @@ import shutil
 from requests.exceptions import ConnectionError, InvalidSchema, MissingSchema
 import time
 
-panda_path = r'C:\Users\CARBON\Desktop\Learning\DL For Computer Vision\datasets\Catdogs\Panda'
+panda_path = "Pathforyourdata"
 
 page = requests.get('http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=n02510455')
 soup = BeautifulSoup(page.content, 'html.parser')
